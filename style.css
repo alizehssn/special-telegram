@@ -40,6 +40,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
@@ -48,10 +49,13 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
+  text-align: center;
 }
 
 .card-body {
+  text-align: center;
   min-height: 100px;
+  width: 100%;
 }
 
 .card-footer {
@@ -117,6 +121,32 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+
+
+.length-slider{
+  width: 100%;
+}
+
+.criteria-body{
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
 
 @media (max-width: 690px) {
   .btn {
