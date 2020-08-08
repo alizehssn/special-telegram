@@ -1,3 +1,3 @@
 # special-telegram
 Random Password Generator
-//details how you use it //how you did it//purpose//description
+The random password generator is used to create a random password of the user's specified length between 8-128 characters. When the "generate" button is clicked the user is prompted to provide their desired password criteria including what types of characters they wish to use and the length. I accomplished this assignment by creating a function definition for the "writePassword" function with a series of prompts for the user's choices, if statements to confirm which elements to use and setting the value that the document would parse with the queryselector function to place in the password textbox. In order to create this function I defined the variables at the beginning of my assignment code so they could be used globally and created a "for" loop in order to allow the function to run for the designated length.
